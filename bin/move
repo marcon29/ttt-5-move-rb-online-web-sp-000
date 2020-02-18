@@ -8,5 +8,5 @@ puts "Where would you like to go? (enter 1-9)"
 user_input = gets.strip
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-move(board, input_to_index(user_input), char)
+move(board, input_to_index(user_input))
 display_board(board)
